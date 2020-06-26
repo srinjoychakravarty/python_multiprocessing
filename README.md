@@ -16,8 +16,11 @@ Python Code built and run using Sublime IDE
     ```sh
     $ srun --pty /bin/bash
     ```
-    
-2. Run the bash script to run all python files in order
+2. load the latest python 3 module:
+    ```sh
+    $ module load python/3.8.1
+    ```
+3. Run the bash script to run all python files in order
     ```sh
     $ ./run.sh
     ```
